@@ -79,6 +79,8 @@
 
     .hero-headline {
         margin-bottom: 48px;
+        text-align: center;
+        padding: 0;
     }
 }
 
@@ -86,4 +88,5 @@
     .hero {
         background-image: linear-gradient(180deg, rgba(46, 47, 66, .7) 0%, rgba(46, 47, 66, .7) 100%), url(../images/hero-bg@2x.jpg);
     }
+        
 }
