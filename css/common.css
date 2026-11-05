@@ -1,0 +1,130 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Roboto, sans-serif;
+    color: #2e2f42;
+    background-color: #fff;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+a{
+    text-decoration: none;
+}
+h3{
+    font-size: 20px;
+    font-weight: 500;
+}
+p{
+    font-size: 16px;
+    font-weight: 400;
+}
+h2{
+    font-weight: 700;
+    font-size: 36px;
+}
+ul{
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+h1, h2, h3, h4, h5, h6{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+p{
+    margin: 0;
+    margin-bottom: 0;
+}
+button{
+    border: none;
+    cursor: pointer;
+}
+img{
+    display: block;
+}
+.container{
+    max-width: 1158px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 15px;
+    
+}
+.cards-container{
+    gap: 0 24px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.section{
+    padding: 120px 0;
+}
+.section-headline{
+    margin-bottom: 72px;
+}
+.logo{
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: #2e2f42;
+    line-height: 1.33;
+    padding: 24px 0;
+}
+.highlight{
+    color: #4D5AE5;
+}
+.sr-only {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+  margin: -1px;
+}
+.mobile-menu-toggle {
+    visibility: hidden;
+    opacity: 0;
+    
+}
+
+@media screen and (min-width:320px) and (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        padding: 0 16px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .cards-container{
+        width: 100%;
+        flex-direction: column;
+    }
+    .section {
+        padding: 72px 0;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .section{
+        padding: 96px 0;
+    }
+    .cards-container{
+        gap: 64px 24px;
+    }
+}
