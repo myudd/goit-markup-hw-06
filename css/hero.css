@@ -23,8 +23,8 @@
     text-align: center;
     letter-spacing: 0.02em;
     line-height: 1.07;
-    margin-bottom: 48px;
-    padding: 0 316px;
+    margin-bottom: 72px;
+    max-width:216px;
 }
 .hero-button{
     text-align: center;
@@ -55,7 +55,6 @@
 @media (min-width: 768px) {
     .hero {
         background-image: linear-gradient(180deg, rgba(46, 47, 66, .7) 0%, rgba(46, 47, 66, .7) 100%), url(../images/hero-bg-tab.jpg);
-        padding: 188px 0;
     }
 
     .hero-headline {

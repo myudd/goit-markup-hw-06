@@ -61,7 +61,7 @@ img {
 }
 
 .container {
-    width: 320px;
+    max-width: 320px;
     margin-right: auto;
     margin-left: auto;
     padding: 0 16px;
@@ -92,7 +92,7 @@ img {
     letter-spacing: 0.03em;
     color: #2e2f42;
     line-height: 1.33;
-    padding: 16px;
+    padding: 16px 0;
 }
 
 .highlight {
@@ -115,7 +115,7 @@ img {
 
 @media (min-width: 768px) and (max-width: 1157px) {
     .container {
-        width: 768px;
+        max-width: 768px;
     }
 }
 
@@ -132,7 +132,7 @@ img {
 
 @media (min-width: 1158px) {
     .container {
-        width: 1158px;
+        max-width: 1158px;
         padding: 0 15px;
     }
 

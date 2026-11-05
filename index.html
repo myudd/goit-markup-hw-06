@@ -50,7 +50,7 @@
         </section>
         <section id="features" class="section features">
             <div class="container">
-                <h2 class="features-headline sr-only">Our Features</h2>
+                <h2 class="features-headline sr-only">Our features</h2>
                 <ul class="features-card-container cards-container">
                     <li class="features-card">
                         <div class="features-card-preview">
@@ -346,7 +346,6 @@
     </main>
     <footer id="footer" class="footer">
        <div class="container">
-            <div class="footer-content">
                 
                 <div class="footer-main-content">
                     <a class="logo footer-logo" href="./index.html"><span class="highlight">Web</span>Studio</a>
@@ -391,7 +390,7 @@
                 </div>
                 <div class="footer-form-container">
                     <p class="footer-form-headline">Subscribe</p>
-                    <div class="form-body">
+                    
                         <form class="footer-form">
                             <input type="email" class="footer-email" name="Email" placeholder="E-mail">
                             <div class="subscribe-btn">
@@ -404,8 +403,7 @@
                                 
                             </div>
                         </form>
-                    </div>
-                </div>
+                
                 
             </div>
        </div>
@@ -463,52 +461,60 @@
         </div>
     </div>
     <div class="mobile-menu-toggle" id="mobile-menu">
-        <nav class="mobile-nav">
-            <ul class="mobile-nav-list nav-list">
-                <li class="mobile-nav-item nav-item"><a class="mobile-nav-link nav-item-link active-link" href="#features">Features</a></li>
-                <li class="mobile-nav-item nav-item"><a class="mobile-nav-link nav-item-link" href="#team">Team</a></li>
-                <li class="mobile-nav-item nav-item"><a class="mobile-nav-link nav-item-link" href="#portfolio">Portfolio</a></li>
-            </ul>
-        </nav>
-        <address class="mobile-nav-address">
-            <ul class="mobile-nav-contacts">
-                <li class="address-contacts-item"><a href="tel:+110001111111" class="address-contacts-link mobile-contact-link">+11
-                        (000)
-                        111-11-11</a></li>
-                <li class="address-contacts-item mobile-nav-contacts-item"><a href="mailto:info@devstudio.com"
-                        class="address-contacts-link mobile-contact-link">info@devstudio.com</a></li>
-            </ul>
-        </address>
-        <ul class="nav-icons-container">
-            <li class="icons-item">
-                <a href="" class="icons-link">
-                    <svg width="24" height="24" class="nav-socials">
-                        <use href="./images/icons.svg#icon-instagram"></use>
-                    </svg>
-                </a>
-            </li>
-            <li class="icons-item">
-                <a href="" class="icons-link">
-                    <svg width="24" height="24" class="nav-socials">
-                        <use href="./images/icons.svg#icon-twitter"></use>
-                    </svg>
-                </a>
-            </li>
-            <li class="icons-item">
-                <a href="" class="icons-link">
-                    <svg width="24" height="24" class="nav-socials">
-                        <use href="./images/icons.svg#icon-facebook"></use>
-                    </svg>
-                </a>
-            </li>
-            <li class="icons-item">
-                <a href="" class="icons-link">
-                    <svg width="24" height="24" class="nav-socials">
-                        <use href="./images/icons.svg#icon-illustration"></use>
-                    </svg>
-                </a>
-            </li>
-        </ul>
+        <div class="mobile-menu-container">
+            <button type="button" class="mobile-menu-close" aria-label="Close menu">
+                <svg width="8" height="8" class="mobile-menu-close-icon">
+                    <use href="./images/icons.svg#icon-close"></use>
+                </svg>
+            </button>
+            <nav class="mobile-nav">
+                <ul class="mobile-nav-list">
+                    <li class="mobile-nav-item"><a class="mobile-nav-link active-link" href="#features">Features</a></li>
+                    <li class="mobile-nav-item"><a class="mobile-nav-link" href="#team">Team</a></li>
+                    <li class="mobile-nav-item"><a class="mobile-nav-link" href="#portfolio">Portfolio</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-bottom">
+                <address class="mobile-nav-address">
+                    <ul class="mobile-nav-contacts">
+                        <li class="mobile-nav-contacts-item"><a href="tel:+110001111111"
+                                class="mobile-contact-link mobile-contact-link-phone">+11 (000) 111-11-11</a></li>
+                        <li class="mobile-nav-contacts-item"><a href="mailto:info@devstudio.com"
+                                class="mobile-contact-link mobile-contact-link-email">info@devstudio.com</a></li>
+                    </ul>
+                </address>
+                <ul class="nav-icons-container">
+                    <li class="icons-item">
+                        <a href="" class="icons-link">
+                            <svg width="24" height="24" class="nav-socials">
+                                <use href="./images/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="icons-item">
+                        <a href="" class="icons-link">
+                            <svg width="24" height="24" class="nav-socials">
+                                <use href="./images/icons.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="icons-item">
+                        <a href="" class="icons-link">
+                            <svg width="24" height="24" class="nav-socials">
+                                <use href="./images/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="icons-item">
+                        <a href="" class="icons-link">
+                            <svg width="24" height="24" class="nav-socials">
+                                <use href="./images/icons.svg#icon-illustration"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
     
 </body>

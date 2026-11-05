@@ -1,26 +1,26 @@
 .features-card-name{
     line-height: 1.2;
     margin-bottom: 8px;
+    font-size: 36px;
+    font-weight: 700;
 }
 .features-card-text{
     color: #434455;
-}
-.features-card{
-    width: 264px;
 }
 .features-img{
     width: 64px;
     height: 64px;
 }
 .features-card-preview{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: none;
     background-color: #F4F4FD;
     border: 1px solid #8E8F99;
     border-radius: 4px;
     margin-bottom: 8px;
     height: 112px;
+}
+.features-card-container{
+    gap: 72px 24px;
 }
 @media (min-width: 768px) {
     .features-card-container {
@@ -34,6 +34,7 @@
 
     .features-card-name {
         text-align: left;
+          
     }
 }
 
@@ -49,6 +50,8 @@
 
     .features-card-preview {
         display: flex;
+        align-items: center;
+            justify-content: center;
     }
 
     .features-card-text {
