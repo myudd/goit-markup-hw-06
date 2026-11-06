@@ -3,9 +3,11 @@
     margin-bottom: 8px;
     font-size: 36px;
     font-weight: 700;
+    text-align: center;
 }
 .features-card-text{
     color: #434455;
+    font-weight: 500;
 }
 .features-img{
     width: 64px;
@@ -21,6 +23,9 @@
 }
 .features-card-container{
     gap: 72px 24px;
+}
+.features-card{
+    width: 100%;
 }
 @media (min-width: 768px) {
     .features-card-container {

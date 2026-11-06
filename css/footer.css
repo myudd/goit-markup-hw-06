@@ -13,7 +13,7 @@
 .footer-main-content {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     margin: 0;
 }
 
@@ -34,7 +34,7 @@
 .footer-form-container {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .footer-form-container {
@@ -93,7 +93,7 @@
 .footer-form {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     gap: 16px 0;
     width: 100%;
 }
@@ -189,6 +189,7 @@
     .footer-form {
         flex-direction: row;
         align-items: stretch;
+        justify-content: flex-start;
         gap: 0 24px;
         width: auto;
     }
@@ -200,7 +201,7 @@
 
 @media (min-width: 768px) and (max-width: 1157px) {
     .footer .container {
-        padding: 0 72px;
+        padding: 0 108px;
     }
 }
 
@@ -216,6 +217,7 @@
 
     .footer-main-content {
         margin-right: 120px;
+        align-items: start;
     }
 
     .footer-form-container {
