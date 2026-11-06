@@ -171,6 +171,7 @@
 
     .footer-main-content {
         width: 264px;
+        align-items: flex-start
     }
 
     .footer-icons-container {
